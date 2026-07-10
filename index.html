@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>钱子懿 | 个人网站</title>
+    <meta
+      name="description"
+      content="个人网站，用于呈现教育背景、履历、实习工作、兴趣爱好和人生哲学。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-icon">✦</span>
+        <span class="brand-name">钱子懿</span>
+      </a>
+
+      <nav class="nav-links" aria-label="主要导航">
+        <a href="#top">欢迎</a>
+        <a href="#about">关于</a>
+        <a href="#education">经历</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#interests">兴趣</a>
+        <a href="#philosophy">哲学</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <a class="button button-small" href="#contact">联系我</a>
+    </header>
+
+    <main id="top">
+      <section class="hero hero-welcome">
+        <div class="trust-row" data-reveal>
+          <span><i></i>Welcome to Qian Ziyi's portfolio</span>
+          <span><i></i>Strategy-minded · AI-curious · ENFJ</span>
+        </div>
+
+        <div class="intro-panel" data-reveal>
+          <div class="intro-copy">
+            <h1><span>Hello，</span></h1>
+            <p class="hero-statement">我是钱子懿，安静又澎湃地多栖发展中</p>
+          </div>
+
+          <nav class="orbit-nav" aria-label="页面章节跳转">
+            <a class="orbit-link orbit-about" href="#about">About</a>
+            <a class="orbit-link orbit-experience" href="#education">Experience</a>
+            <a class="orbit-link orbit-toolkit" href="#toolkit">Toolkit</a>
+            <a class="orbit-link orbit-interests" href="#interests">Interests</a>
+            <a class="orbit-link orbit-philosophy" href="#philosophy">Philosophy</a>
+            <a class="orbit-link orbit-contact" href="#contact">Contact</a>
+            <span class="orbit-core" aria-hidden="true">
+              <span>QZY</span>
+            </span>
+          </nav>
+        </div>
+      </section>
+
+      <section class="section profile-section" id="about">
+        <figure class="profile-portrait" data-reveal data-profile-carousel>
+          <div class="profile-frame">
+            <img
+              class="profile-slide is-active"
+              src="./assets/lark/doc-sync/profile/profile-01.jpg"
+              alt="钱子懿个人照片 1"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-02.jpg"
+              alt="钱子懿个人照片 2"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-03.jpg"
+              alt="钱子懿个人照片 3"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-04.jpg"
+              alt="钱子懿个人照片 4"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-05.jpg"
+              alt="钱子懿个人照片 5"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-06.jpg"
+              alt="钱子懿个人照片 6"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-07.jpg"
+              alt="钱子懿个人照片 7"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-08.jpg"
+              alt="钱子懿个人照片 8"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-09.jpg"
+              alt="钱子懿个人照片 9"
+            />
+            <img
+              class="profile-slide"
+              src="./assets/lark/doc-sync/profile/profile-10.jpg"
+              alt="钱子懿个人照片 10"
+            />
+          </div>
+          <button class="profile-control prev" type="button" aria-label="上一张照片" data-profile-prev>
+            ‹
+          </button>
+          <button class="profile-control next" type="button" aria-label="下一张照片" data-profile-next>
+            ›
+          </button>
+          <div class="profile-dots" aria-label="个人照片轮播位置">
+            <button class="is-active" type="button" aria-label="查看第 1 张照片" data-profile-dot="0"></button>
+            <button type="button" aria-label="查看第 2 张照片" data-profile-dot="1"></button>
+            <button type="button" aria-label="查看第 3 张照片" data-profile-dot="2"></button>
+            <button type="button" aria-label="查看第 4 张照片" data-profile-dot="3"></button>
+            <button type="button" aria-label="查看第 5 张照片" data-profile-dot="4"></button>
+            <button type="button" aria-label="查看第 6 张照片" data-profile-dot="5"></button>
+            <button type="button" aria-label="查看第 7 张照片" data-profile-dot="6"></button>
+            <button type="button" aria-label="查看第 8 张照片" data-profile-dot="7"></button>
+            <button type="button" aria-label="查看第 9 张照片" data-profile-dot="8"></button>
+            <button type="button" aria-label="查看第 10 张照片" data-profile-dot="9"></button>
+          </div>
+          <figcaption>Qian Ziyi · 西安交通大学新传硕士</figcaption>
+        </figure>
+
+        <div class="profile-copy" data-reveal>
+          <span class="kicker">About</span>
+          <h2>
+            <span>Rooted but flow.</span>
+          </h2>
+          <div class="identity-pills" aria-label="个人身份关键词">
+            <span>Strategy-minded</span>
+            <span>AI-curious</span>
+            <span>ENFJ</span>
+            <span>多栖发展</span>
+          </div>
+          <p>
+            我目前是<span class="text-highlight">西安交大</span>传播专业的研一学生，本科也毕业于西安交大，<span class="text-highlight">深圳人</span>。
+          </p>
+          <p>
+            学业上，我的研究关注<span class="text-highlight">平台上“人”的真实处境</span>，
+            理解<span class="text-highlight">平台、算法与流量</span>如何重新组织人的劳动、可见性与日常生活；
+            我也具有相当的<span class="text-highlight">政府舆情应对</span>经验。
+          </p>
+          <p>
+            工作上，我曾在新华社从事<span class="text-highlight">跨文化传播</span>，
+            也在科技公司做过<span class="text-highlight">品牌运营和市场营销</span>。
+            现在，我在飞书从事 <span class="text-highlight">To B Marketing</span> 的工作，
+            持续关注 <span class="text-highlight">AI 对传播关系与工作场景的影响</span>。
+            生活上，我是一个<span class="text-highlight">劲头十足的生活家</span>，运动、音乐、户外，我都有涉猎。
+          </p>
+        </div>
+      </section>
+
+      <section class="section story-section" id="education">
+        <span class="section-anchor" id="experience"></span>
+        <div class="section-head centered" data-reveal>
+          <span class="kicker">Experience</span>
+          <h2>教育与项目经历</h2>
+        </div>
+
+        <div class="story-carousel" data-reveal data-active-index="0" aria-label="教育与项目经历弧形卡片">
+          <button
+            class="story-card slot-0"
+            type="button"
+            aria-expanded="false"
+            aria-label="查看西安交通大学本科经历详情"
+          >
+            <span class="story-card-inner">
+              <span class="story-face story-front">
+                <img src="./assets/lark/doc-sync/story/story-01.jpg" alt="本科教育经历卡片配图" />
+                <span class="story-caption">
+                  <strong>西安交通大学本科</strong>
+                  <small>2021 - 2025</small>
+                </span>
+              </span>
+              <span class="story-face story-back">
+                <span class="story-back-kicker">2021 - 2025 / 网络与新媒体专业</span>
+                <strong class="story-back-title">西安交通大学 本科</strong>
+                <span class="story-back-detail">
+                  在<span class="text-highlight">古都安逸的生活氛围</span>里沉淀对生活的热爱。依托<span class="text-highlight">工科学校优势</span>，
+                  学习和探索<span class="text-highlight">跨学科内容</span>。作为一个文科生，高数、统计、编程、前端开发是一个都没落下。
+                </span>
+                <span class="story-back-hint">点击返回</span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="story-card slot-1"
+            type="button"
+            aria-expanded="false"
+            aria-label="查看西安交通大学硕士经历详情"
+          >
+            <span class="story-card-inner">
+              <span class="story-face story-front">
+                <img src="./assets/lark/doc-sync/story/story-02.jpg" alt="硕士教育经历卡片配图" />
+                <span class="story-caption">
+                  <strong>西安交通大学硕士</strong>
+                  <small>2025 - 至今</small>
+                </span>
+              </span>
+              <span class="story-face story-back">
+                <span class="story-back-kicker">2025 - 至今 / 新传硕士</span>
+                <strong class="story-back-title">西安交通大学硕士</strong>
+                <span class="story-back-detail">
+                  保研后选择留在本校，提前进组展开<span class="text-highlight">科研训练</span>。
+                  主要关注<span class="text-highlight">政治传播与智能传播领域</span>，
+                  也关心<span class="text-highlight">弱势群体</span>在互联网中的<span class="text-highlight">可见性与传播实践</span>。
+                </span>
+                <span class="story-back-hint">点击返回</span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="story-card slot-2"
+            type="button"
+            aria-expanded="false"
+            aria-label="查看 Xtool 品牌运营详情"
+          >
+            <span class="story-card-inner">
+              <span class="story-face story-front">
+                <img src="./assets/lark/doc-sync/story/story-03.jpg" alt="Xtool 品牌运营卡片配图" />
+                <span class="story-caption">
+                  <strong>Xtool 品牌运营</strong>
+                  <small>2024.06 - 08</small>
+                </span>
+              </span>
+              <span class="story-face story-back">
+                <span class="story-back-kicker">达人合作 / Campaign 执行 / 品牌运营</span>
+                <strong class="story-back-title">Xtool 品牌运营</strong>
+                <span class="story-back-detail">
+                  围绕<span class="text-highlight">激光雕刻机产品</span>与<span class="text-highlight">Campaign 目标</span>，
+                  参与<span class="text-highlight">品牌内容运营、达人合作和线下市场活动执行</span>。
+                </span>
+                <span class="story-back-hint">点击返回</span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="story-card slot-3"
+            type="button"
+            aria-expanded="false"
+            aria-label="查看新华社陕西海外社媒内容运营详情"
+          >
+            <span class="story-card-inner">
+              <span class="story-face story-front">
+                <img class="story-image-contain" src="./assets/lark/doc-sync/story/story-04.jpg" alt="新华社陕西海外社媒内容运营卡片配图" />
+                <span class="story-caption">
+                  <strong>新华社陕西</strong>
+                  <small>2024</small>
+                </span>
+              </span>
+              <span class="story-face story-back">
+                <span class="story-back-kicker">跨文化传播 / 海外社媒运营</span>
+                <strong class="story-back-title">新华社陕西</strong>
+                <span class="story-back-detail">
+                  负责<span class="text-highlight">iPanda 账号海外社媒内容策划</span>，
+                  向海外网友传播<span class="text-highlight">熊猫动态与在地文化故事</span>。图为我与央视记者王冰冰的活动连线。
+                </span>
+                <span class="story-back-hint">点击返回</span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="story-card slot-4"
+            type="button"
+            aria-expanded="false"
+            aria-label="查看字节跳动飞书实习详情"
+          >
+            <span class="story-card-inner">
+              <span class="story-face story-front">
+                <img class="story-image-feishu" src="./assets/lark/doc-sync/story/story-05.jpg" alt="字节跳动飞书实习经历卡片配图" />
+                <span class="story-caption">
+                  <strong>字节跳动 · 飞书</strong>
+                  <small>2026 - 至今</small>
+                </span>
+              </span>
+              <span class="story-face story-back">
+                <span class="story-back-kicker">To B Marketing</span>
+                <strong class="story-back-title">字节跳动-飞书</strong>
+                <span class="story-back-detail">
+                  参与策划并落地<span class="text-highlight">飞书峰会</span>、<span class="text-highlight">飞书 AI 先锋大赛</span>、多场<span class="text-highlight">高管 AI 闭门会</span>，
+                  覆盖<span class="text-highlight">消费、健康等多个行业</span>。
+                </span>
+                <span class="story-back-hint">点击返回</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section toolkit-section" id="toolkit">
+        <div class="toolkit-layout" data-reveal data-toolkit-switcher>
+          <div class="section-head toolkit-head">
+            <span class="kicker">Toolkit</span>
+            <h2>我的一些 AI 探索</h2>
+          </div>
+
+          <div class="toolkit-list" aria-label="工具箱列表">
+            <article class="tool-item is-active" data-tool-item="0" tabindex="0">
+                <span class="tool-number">01</span>
+                <strong>海外行业 AI 动态助手</strong>
+                <span class="tool-desc">飞书商业化团队内部使用，定期爬取海外行业 AI 动态，做成飞书卡片的推送形式。</span>
+                <span class="tool-actions">
+                  <a href="https://apaas.feishu.cn/ai/custom_agent/agent_4kgp0gzvc17mr4p/install" target="_blank" rel="noreferrer">领取工具</a>
+                  <a href="https://bytedance.larkoffice.com/docx/A7aid9oC4oPw32xvPtTcbiedn4d" target="_blank" rel="noreferrer">说明文档</a>
+                </span>
+            </article>
+            <article class="tool-item" data-tool-item="1" tabindex="0">
+                <span class="tool-number">02</span>
+                <strong>外刊阅读小助手</strong>
+                <span class="tool-desc">定期爬取外刊并生成精读的飞书云文档，提供原文、好词好句和语言点。</span>
+                <span class="tool-actions">
+                  <a href="https://github.com/dodowhisley-ux/english-intensive-reading-workflow" target="_blank" rel="noreferrer">查看 GitHub</a>
+                </span>
+            </article>
+            <article class="tool-item is-building" data-tool-item="2" tabindex="0">
+                <span class="tool-number">03</span>
+                <strong>正在更新中</strong>
+                <span class="tool-desc">新的工具还在探索和打磨，先留一个位置给下一次灵感。</span>
+            </article>
+          </div>
+          <div class="toolkit-preview" aria-label="工具示意图预览">
+            <div class="preview-window">
+              <div class="preview-bar" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <em>preview</em>
+              </div>
+              <figure class="tool-preview is-active" data-tool-preview="0">
+                <img class="tool-shot tool-shot-agent" src="./assets/lark/doc-sync/toolkit/toolkit-01.png" alt="海外行业 AI 动态助手示意图" />
+              </figure>
+              <figure class="tool-preview" data-tool-preview="1">
+                <img class="tool-shot tool-shot-reading" src="./assets/lark/doc-sync/toolkit/toolkit-02.png" alt="外刊阅读小助手示意图" />
+              </figure>
+              <figure class="tool-preview tool-preview-empty" data-tool-preview="2">
+                <span>QZY</span>
+                <strong>正在更新中</strong>
+                <p>把工具变成可复用的流程，也把探索留下痕迹。</p>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section interest-showcase" id="interests">
+        <div class="section-head interest-head" data-reveal>
+          <span class="kicker">Interests</span>
+          <h2>兴趣爱好</h2>
+        </div>
+
+        <div class="interest-grid" data-reveal>
+          <article class="interest-card" data-index="01">
+            <div class="interest-image sports" data-interest-carousel>
+              <img
+                class="interest-slide is-active"
+                src="./assets/lark/doc-sync/interests/interests-01.jpg"
+                alt="排球兴趣照片 1"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-02.jpg"
+                alt="排球兴趣照片 2"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-03.jpg"
+                alt="排球兴趣照片 3"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-04.jpg"
+                alt="排球兴趣照片 4"
+                onerror="this.hidden = true"
+              />
+              <div class="interest-dots" aria-label="排球照片轮播位置"></div>
+            </div>
+            <div class="interest-copy">
+              <span>Volleyball</span>
+              <h3>排球</h3>
+              <p>挺能蹦跶的主攻，向上跳，向上看，这对我的颈椎很友好！</p>
+            </div>
+          </article>
+          <article class="interest-card" data-index="02">
+            <div class="interest-image outdoor" data-interest-carousel>
+              <img
+                class="interest-slide is-active"
+                src="./assets/lark/doc-sync/interests/interests-05.jpg"
+                alt="户外兴趣照片"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-06.jpg"
+                alt="户外旅行照片"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-07.jpg"
+                alt="户外兴趣照片 3"
+                onerror="this.hidden = true"
+              />
+              <div class="interest-dots" aria-label="户外照片轮播位置"></div>
+            </div>
+            <div class="interest-copy">
+              <span>Outdoor</span>
+              <h3>户外</h3>
+              <p>看看天看看地，看看水，景色不花钱，获得的心情也是免费的。最近满脑子都是溯溪……</p>
+            </div>
+          </article>
+          <article class="interest-card" data-index="03">
+            <div class="interest-image city" data-interest-carousel>
+              <img
+                class="interest-slide is-active"
+                src="./assets/lark/doc-sync/interests/interests-08.jpg"
+                alt="唱歌兴趣照片 1"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-09.jpg"
+                alt="唱歌兴趣照片 2"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-10.jpg"
+                alt="唱歌兴趣照片 3"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-11.jpg"
+                alt="唱歌兴趣照片 4"
+                onerror="this.hidden = true"
+              />
+              <div class="interest-dots" aria-label="唱歌照片轮播位置"></div>
+            </div>
+            <div class="interest-copy">
+              <span>Singing</span>
+              <h3>唱歌</h3>
+              <p>爱民谣爱合唱：任素汐、赵雷、尧十三、上海彩虹合唱团；演唱经历刷新中：袁娅维和声、民谣酒吧驻唱、深圳音乐厅、大剧院、西安音乐厅。</p>
+            </div>
+          </article>
+          <article class="interest-card" data-index="04">
+            <div class="interest-image writing" data-interest-carousel>
+              <img
+                class="interest-slide is-active"
+                src="./assets/lark/doc-sync/interests/interests-12.jpg"
+                alt="吉他钢琴兴趣照片 1"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-13.jpg"
+                alt="吉他兴趣照片 2"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-14.jpg"
+                alt="钢琴兴趣照片 3"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-15.jpg"
+                alt="钢琴兴趣照片 4"
+                onerror="this.hidden = true"
+              />
+              <div class="interest-dots" aria-label="吉他钢琴照片轮播位置"></div>
+            </div>
+            <div class="interest-copy">
+              <span>Music</span>
+              <h3>吉他<br />钢琴</h3>
+              <p>My Source of 生活秩序，喜欢在雨天和夜里弹琴（插电不扰民版）。</p>
+            </div>
+          </article>
+          <article class="interest-card" data-index="05">
+            <div class="interest-image reading" data-interest-carousel>
+              <img
+                class="interest-slide is-active"
+                src="./assets/lark/doc-sync/interests/interests-16.jpg"
+                alt="阅读兴趣照片 1"
+                onerror="this.hidden = true"
+              />
+              <img
+                class="interest-slide"
+                src="./assets/lark/doc-sync/interests/interests-17.jpg"
+                alt="阅读兴趣照片 2"
+                onerror="this.hidden = true"
+              />
+              <div class="interest-dots" aria-label="阅读照片轮播位置"></div>
+            </div>
+            <div class="interest-copy">
+              <span>Reading</span>
+              <h3>阅读</h3>
+              <p>有愿景而不应有压力地广泛阅读。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section philosophy-section" id="philosophy" data-reveal>
+        <span class="kicker">Philosophy</span>
+        <blockquote>
+          <span>生活信条，</span>在日常里安静又澎湃。
+        </blockquote>
+        <div class="philosophy-grid">
+          <article class="philosophy-card">
+            <img src="./assets/lark/doc-sync/philosophy/philosophy-01.png" alt="日常生活信条配图" />
+            <span>01</span>
+            <h3>一日即日日，从现实生活中获得力量</h3>
+            <p>
+              <span class="text-highlight">日常不是庸常</span>，而是<span class="text-highlight">思想和力量真正生长的地方</span>。
+              认真吃饭、阅读写作、练琴唱歌、回应关系，经历完整的<span class="text-highlight">春夏秋冬</span>，
+              在平凡的日子里感受<span class="text-highlight">温暖波澜</span>，<span class="text-highlight">安静又澎湃</span>。
+            </p>
+          </article>
+          <article class="philosophy-card">
+            <img src="./assets/lark/doc-sync/philosophy/philosophy-02.jpg" alt="松弛关系生活信条配图" />
+            <span>02</span>
+          <h3>在松弛的关系里并肩成长</h3>
+          <p>
+            珍视<span class="text-highlight">自然、自由的人际连接</span>：
+            好的关系像<span class="text-highlight">并肩生长的大树</span>，彼此靠近，却<span class="text-highlight">各自扎根</span>；
+            共享阳光，也保留枝叶伸展的空间。
+          </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" data-reveal>
+        <span class="kicker">Contact</span>
+        <blockquote>
+          <span>谢谢你看到这里。</span>欢迎 coffee chat、或者一些音乐时刻。
+        </blockquote>
+        <div class="contact-panel">
+          <div>
+            <h3>钱子懿</h3>
+            <p>西安交大硕士 · Strategy-minded · AI-curious · ENFJ</p>
+          </div>
+          <div class="contact-actions">
+            <button class="contact-note contact-note-single" type="button" data-copy-text="yi1025pp" aria-label="复制微信号 yi1025pp">
+              <span class="contact-note-badge">WeChat</span>
+              <span class="contact-note-copy" data-copy-status aria-live="polite"></span>
+            </button>
+            <a class="button button-outline" href="#top">回到开头</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 钱子懿</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
